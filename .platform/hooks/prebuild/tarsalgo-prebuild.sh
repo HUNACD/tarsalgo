@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 echo tarsalgo-prebuild-hook-started
+echo $TARSALGO_TEST
+echo $NODE_ENV
 sudo yum -y install postgresql-devel
 echo listing-staging-folder
 ls -la /var/app/staging
