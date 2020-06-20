@@ -1,0 +1,17 @@
+branch-defaults:
+  master:
+    environment: laith-tarsalgo-dev
+global:
+  application_name: laith-tarsalgo
+  branch: null
+  default_ec2_keyname: Laith
+  default_platform: Node.js 10 running on 64bit Amazon Linux 2
+  default_region: eu-central-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-deploy-laith
+  repository: null
+  sc: git
+  workspace_type: Application
